@@ -48,3 +48,4 @@ end
 gem "devise", "~> 4.9"
 
 gem "stimulus-rails"
+gem "turbo-rails"

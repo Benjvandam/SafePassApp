@@ -7,3 +7,43 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Entry.create!(
+  user_id: 1,
+  name: 'Google',
+  url: 'https://google.com',
+  username: 'john.doe@example.com',
+  password: 'password'
+)
+
+Entry.create!(
+  user_id: 1,
+  name: 'Facebook',
+  url: 'https://facebook.com',
+  username: 'jane.doe@example.com',
+  password: 'password'
+)
+
+Entry.create!(
+  user_id: 1,
+  name: 'x',
+  url: 'https://x.com',
+  username: 'john.doe@example.com',
+  password: 'password'
+)
+
+Entry.create!(
+  user_id: 1,
+  name: 'Instagram',
+  url: 'https://instagram.com',
+  username: 'jane.doe@example.com',
+  password: 'password'
+)
+
+Entry.create!(
+  user_id: 1,
+  name: 'LinkedIn',
+  url: 'https://linkedin.com',
+  username: 'jane.doe@example.com',
+  password: 'password'
+)
