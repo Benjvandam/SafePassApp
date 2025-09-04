@@ -49,3 +49,5 @@ gem "devise", "~> 4.9"
 
 gem "stimulus-rails"
 gem "turbo-rails"
+
+gem "jwt", "~> 3.1"
